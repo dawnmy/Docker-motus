@@ -56,7 +56,7 @@ wget https://github.com/motu-tool/mOTUs_v2/archive/master.zip -O mOTUs.zip && \
     unzip mOTUs.zip && \
     mv mOTUs_v2-master mOTUs && \
     cd mOTUs && \
-    python setup.py && \
+    #python setup.py && \
     ln -s $(pwd)/motus /usr/local/bin/motus && \
     cd / && \
     rm -rf /mOTUs.zip
